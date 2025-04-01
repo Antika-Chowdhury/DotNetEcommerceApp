@@ -26,7 +26,7 @@ namespace DotnetEcommerceApp.Controllers
         }
 
         // GET: /Product/Details/1
-        [HttpGet]
+        [HttpGet("details/{id}")]
         public async Task<IActionResult> GetProduct(int id)
         {
             var product = await _productRepository.GetProductByIdAsync(id);
@@ -38,7 +38,7 @@ namespace DotnetEcommerceApp.Controllers
         }
 
         // POST: /Product/Create
-        [HttpPost]
+        [HttpPost("create")]
         public async Task<IActionResult> AddProduct(Product product)
         {
             if (ModelState.IsValid)
@@ -50,7 +50,7 @@ namespace DotnetEcommerceApp.Controllers
         }
 
         // PUT: /Product/Edit/1
-        [HttpPut("{id}")]
+        [HttpPut("edit/{id}")]
         public async Task<IActionResult> UpdateProduct(Product product, int id)
         {
             if (id != product.Id)
@@ -65,7 +65,7 @@ namespace DotnetEcommerceApp.Controllers
         }
 
         // DELETE: /Product/Delete/1
-        [HttpDelete("{id}")]
+        [HttpDelete("delete/{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {
             await _productRepository.DeleteProductAsync(id);

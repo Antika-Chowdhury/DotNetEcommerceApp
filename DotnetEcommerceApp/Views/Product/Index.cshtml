@@ -1,11 +1,25 @@
 @model IEnumerable<DotnetEcommerceApp.Models.Product>
 
-<h1> product List</h1>
-<ul>
-    @foreach (var product in Model)
-    {
-        <li>
-            <strong>@product.Name</strong> - @product.Price.ToString("C")
-        </li>
-    }
-</ul>
+@{
+    ViewData["Title"] = "Product List";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var product in Model)
+        {
+            <tr>
+                <td>@product.Name</td>
+                <td>@product.Price.ToString("C")</td>
+            </tr>
+        }
+    </tbody>
+</table>

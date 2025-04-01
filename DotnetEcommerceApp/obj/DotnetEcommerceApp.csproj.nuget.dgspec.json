@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj": {}
+    "c:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj": {
+    "c:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj",
+        "projectUniqueName": "c:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj",
         "projectName": "DotnetEcommerceApp",
-        "projectPath": "C:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj",
+        "projectPath": "c:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\DotnetEcommerceApp.csproj",
         "packagesPath": "C:\\Users\\chowdhury_an\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\obj\\",
+        "outputPath": "c:\\Users\\chowdhury_an\\Desktop\\DotNetEcommerceApp\\DotnetEcommerceApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\chowdhury_an\\AppData\\Roaming\\NuGet\\NuGet.Config"

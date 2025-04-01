@@ -17,45 +17,45 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = DotnetEcommerceApp
 build_property.RootNamespace = DotnetEcommerceApp
-build_property.ProjectDir = C:\Users\chowdhury_an\Desktop\DotNetEcommerceApp\DotnetEcommerceApp\
+build_property.ProjectDir = c:\Users\chowdhury_an\Desktop\DotNetEcommerceApp\DotnetEcommerceApp\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 9.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\chowdhury_an\Desktop\DotNetEcommerceApp\DotnetEcommerceApp
+build_property.MSBuildProjectDirectory = c:\Users\chowdhury_an\Desktop\DotNetEcommerceApp\DotnetEcommerceApp
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 9.0
 build_property.EnableCodeStyleSeverity = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Home/Index.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Home/Privacy.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Product/Index.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Product/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUHJvZHVjdFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/Error.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/_ValidationScriptsPartial.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/_ViewImports.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/_ViewStart.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/_Layout.cshtml]
+[c:/Users/chowdhury_an/Desktop/DotNetEcommerceApp/DotnetEcommerceApp/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-zyde536wir

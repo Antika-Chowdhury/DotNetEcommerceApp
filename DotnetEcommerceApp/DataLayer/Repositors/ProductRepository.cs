@@ -1,51 +1,62 @@
+using DotnetEcommerceApp.DataLayer.Repositors;
 using DotnetEcommerceApp.Models;
 using System.Collections.Generic;
+using System.Linq;
 using System.Threading.Tasks;
-using Microsoft.EntityFrameworkCore;
-using DotnetEcommerceApp.Data;
-using DotnetEcommerceApp.DataLayer.Repositors;
 
-namespace DotnetEcommerceApp.DataLayer.Repositories // Fixed namespace
+namespace DotnetEcommerceApp.DataLayer.Repositories
 {
-    public class ProductRepository : IProductRepository
+    public class MockProductRepository : IProductRepository
     {
-        private readonly AppDbContext _context;
-
-        public ProductRepository(AppDbContext context)
+        // Mock data
+        private static readonly List<Product> _products = new List<Product>
         {
-            _context = context;
-        }
+            new Product { Id = 1, Name = "Laptop", Price = 899, Stock = 100 },
+            new Product { Id = 2, Name = "Smartphone", Price = 499, Stock = 103 },
+            new Product { Id = 3, Name = "Headphones", Price = 199, Stock = 110 }
+        };
 
         public async Task<IEnumerable<Product>> GetAllProductsAsync()
         {
-            return await _context.Products.ToListAsync();
+            // Return mock data
+            return await Task.FromResult(_products);
         }
 
         public async Task<Product> GetProductByIdAsync(int id)
         {
-            return await _context.Products.FindAsync(id);
+            // Find product by id
+            var product = _products.FirstOrDefault(p => p.Id == id);
+            return await Task.FromResult(product);
         }
 
         public async Task AddProductAsync(Product product)
         {
-            await _context.Products.AddAsync(product);
-            await _context.SaveChangesAsync();
+            // Add product to mock data
+            _products.Add(product);
+            await Task.CompletedTask;
         }
 
         public async Task UpdateProductAsync(Product product)
         {
-            _context.Products.Update(product);
-            await _context.SaveChangesAsync();
+            // Find the product in mock data and update it
+            var existingProduct = _products.FirstOrDefault(p => p.Id == product.Id);
+            if (existingProduct != null)
+            {
+                existingProduct.Name = product.Name;
+                existingProduct.Price = product.Price;
+            }
+            await Task.CompletedTask;
         }
 
         public async Task DeleteProductAsync(int id)
         {
-            var product = await _context.Products.FindAsync(id);
+            // Find the product in mock data and delete it
+            var product = _products.FirstOrDefault(p => p.Id == id);
             if (product != null)
             {
-                _context.Products.Remove(product);
-                await _context.SaveChangesAsync();
+                _products.Remove(product);
             }
+            await Task.CompletedTask;
         }
     }
 }
