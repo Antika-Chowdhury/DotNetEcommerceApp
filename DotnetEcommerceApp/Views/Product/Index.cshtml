@@ -1,0 +1,11 @@
+@model IEnumerable<DotnetEcommerceApp.Models.Product>
+
+<h1> product List</h1>
+<ul>
+    @foreach (var product in Model)
+    {
+        <li>
+            <strong>@product.Name</strong> - @product.Price.ToString("C")
+        </li>
+    }
+</ul>
